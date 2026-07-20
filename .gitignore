@@ -1,0 +1,8 @@
+config.yaml
+config.local.yaml
+.env
+.env.*
+*.cookie
+cookies.txt
+*.session
+__pycache__/

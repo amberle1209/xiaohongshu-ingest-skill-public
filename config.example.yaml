@@ -1,0 +1,24 @@
+# Copy outside this repository, then adapt for your machine. Do not commit config.yaml.
+storage:
+  wiki_root: "~/content-ingest"
+  raw_subdirectory: "raw"
+  query_subdirectory: "queries"
+
+network:
+  connect_timeout_seconds: 15
+  total_timeout_seconds: 120
+  max_redirects: 5
+  max_download_bytes: 268435456
+
+transcription:
+  python: "python3"
+  model: "base"
+  language: null # auto-detect; set only after an evidence-based retry
+  minimum_coverage_percent: 80
+
+# External delivery is disabled by default. Configure a destination only in a
+# local, uncommitted file and require a user confirmation for each delivery.
+delivery:
+  enabled: false
+  provider: null
+  target: null
