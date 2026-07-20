@@ -1,5 +1,7 @@
 # xiaohongshu-ingest
 
+[简体中文](README.zh-CN.md) | English
+
 An open-source skill for extracting and locally archiving user-authorized long-form content, with dedicated paths for public Xiaohongshu posts, Feishu/Lark, WeChat, and generic hosted posts.
 
 ## What it does
